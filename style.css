@@ -156,3 +156,25 @@ li {
 
 
 /*media queries below*/
+
+@media(max-width: 1000px) {
+    nav {
+        display: none;
+    }
+}
+    @media(max-width: 700px) {
+    
+/*    move created by invision to replace scroll to shop*/
+    .placeholder{
+        display: none;
+    }
+    
+    .toShop{
+        display: none;
+    }
+        
+        .scrollTo{
+            display: flex;
+            justify-content: center;
+        }
+}
